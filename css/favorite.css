@@ -1,0 +1,21 @@
+body{
+    background-color: lavender;
+
+}
+
+h1{
+font-size: 30px;
+color: grey;
+}
+h2{
+color: grey;
+font-size: 20px;
+}
+
+.big{
+font-size: 35px;
+}
+
+span{
+color: grey;
+}
