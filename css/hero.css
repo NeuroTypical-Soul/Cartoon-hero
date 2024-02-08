@@ -1,24 +1,84 @@
 body{
     
     margin: 0;
-    font-family: 'trajan','avenir', 'futura', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(124,0,0,1) 0%, rgba(0,0,0,1) 79%);
+}
+
+h1, h2{
+
+    font-family: 'Playfair Display', serif;
+    color: #EC1D23;
+    
+
 }
 
 header{
-    background-color: rgb(26, 4, 4);
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
     
+    
 }
 
 header h1{
-    color: white;
+    color: #EC1D23;
+    font-size: 50px;
 }
 
 header img{
     border-radius: 15px;
-    width: 200px;
-    border: 5px solid #D3D2C3;
+    width: 220px;
+    border: 5px solid #EC1D23;
     
+}
+
+main{
+    
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+
+
+}
+
+
+h2{
+    font-size: 30px;
+    margin: 40px 0px 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+footer a{
+    margin: 0;
+    padding-top: 10px;
+}
+
+a {
+    color: #EC1D23;
+}
+
+a:hover{
+    color: #4839a4
+}
+
+p.caption{
+    color: #999999;
+    font-style: italic;
+    margin-top: 0;
+    text-align: center;
+}
+
+span{
+    color:#EC1D23;
 }
